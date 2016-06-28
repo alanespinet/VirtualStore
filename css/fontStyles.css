@@ -1,0 +1,15 @@
+.transitionable
+{
+	transition: all 1s;
+}
+
+.card-content
+{
+	height: 70px;
+}
+
+.container
+{
+	padding-top: 60px;
+}
+

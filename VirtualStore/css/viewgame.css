@@ -1,0 +1,38 @@
+.card
+{
+	height: 600px;
+}
+
+.card-content
+{
+	height: 530px;
+}
+
+.container
+{
+	padding-top: 60px;
+}
+
+#description_text
+{
+	text-align: justify;
+}
+
+.rounded
+{
+	border-radius: 10px;
+}
+
+#front_image
+{
+	width: 466px;
+	height: 600px;
+
+	border-radius: 10px;
+}
+
+#my_slide
+{
+	text-align: center;
+	border-radius: 10px;
+}
