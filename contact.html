@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Contact</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+
+  <body class="green lighten-5">
+
+    <!-- NAVA BAR -->
+  	<nav class="green lighten-2">
+      		<div class="nav-wrapper">
+        			<a href="index.html" class="brand-logo">Virtual Video-Games Store</a>
+        			<ul id="nav-mobile" class="right hide-on-med-and-down">
+          			<li><a href="rpgs.html" class="green-text text-darken-4" id="rpg_link">RPG</a></li>
+          			<li><a href="badges.html" class="green-text text-darken-4" id="action_link">Action</a></li>
+          			<li><a href="collapsible.html" class="green-text text-darken-4" id="rts_link">RTS</a></li>
+  				<li><a href="collapsible.html" class="green-text text-darken-4" id="shooter_link">Shooter</a></li>
+  				<li><a href="collapsible.html" class="green-text text-darken-4" id="arcade_link">Arcade</a></li>
+  				<li><a href="collapsible.html" class="green-text text-darken-4" id="tactics_link">Tactics</a></li>
+  				<li><a href="collapsible.html" class="green-text text-darken-4" id="adventures_link">Adventures</a></li>
+        			</ul>
+      		</div>
+    	</nav>
+
+    <!-- CONTENT -->
+    <section class="container">
+      <div id="wrapper">
+            <form method="post" action="http://www.fvi-grad.com:4004/email">
+            <table>
+            <tr>
+              <td>
+                Name:
+              </td>
+              <td>
+                <input type="text" id="full_name" name="full_name"/>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Email:
+              </td>
+              <td>
+                <input type="text" id="email" name="email"/>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Message:
+              </td>
+              <td>
+                <input type="text" id="message" name="message"/>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                &nbsp;
+              </td>
+              <td>
+                <input type="button" id="button" value="Send"/>
+              </td>
+            </tr>
+            </table>
+            <input type="hidden" id="dest_email" name="dest_email" value="fyelianis@gmail.com">
+          </form>
+        </div>
+      </section>
+    <!-- FOOTER -->
+  	<footer class="page-footer green lighten-2">
+            <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Gaming is the only way!</h5>
+                  <p class="grey-text text-lighten-4">Project created as a self study example, using Materialize</p>
+                </div>
+            </div>
+            <div class="footer-copyright green darken-4">
+              <div class="container">
+              2016 Copyright Alan Espinet, FVI
+              <a class="grey-text text-lighten-4 right" href="contact.html">Contact us!</a>
+              </div>
+            </div>
+      </footer>
+
+    <!-- jQuery -->
+  	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+  	<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+    <script src="js/contact.js"></script>
+  </body>
+</html>
